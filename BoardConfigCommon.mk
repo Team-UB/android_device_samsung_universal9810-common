@@ -87,7 +87,7 @@ BOARD_VNDK_VERSION := current
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-04-01
+VENDOR_SECURITY_PATCH := 2019-05-01
 
 # Enable 64-bits binder
 TARGET_USES_64_BIT_BINDER := true
