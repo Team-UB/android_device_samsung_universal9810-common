@@ -18,6 +18,10 @@ LOCAL_PATH := device/samsung/universal9810-common
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    fingerprint.exynos5
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio_keys.kl:system/usr/keylayout/gpio_keys.kl
