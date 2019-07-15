@@ -55,6 +55,18 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Lineage hardware
+BOARD_HARDWARE_CLASS := \
+    hardware/samsung/lineagehw
+
+# Platform
+BOARD_VENDOR := samsung
+TARGET_BOARD_PLATFORM := exynos5
+TARGET_BOOTLOADER_BOARD_NAME := universal9810
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+TARGET_SOC := exynos9810
+
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
 
