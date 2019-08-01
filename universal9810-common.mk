@@ -55,6 +55,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_r08.xml:system/etc/mixer_paths_r08.xml \
     $(LOCAL_PATH)/audio/mixer_gains_r08.xml:system/etc/mixer_gains_r08.xml
 
+PRODUCT_PACKAGES += \
+    audio.a2dp.default
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
