@@ -65,7 +65,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     libnfc-nci \
     libnfc_nci_jni \
-    NfcNci \
     Tag
 
 # Power
